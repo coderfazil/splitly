@@ -1,0 +1,167 @@
+.expense-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-expense{
+  height: 400px;
+  width:400px;
+ margin-top: 50px;
+  box-shadow:0 0 10px  rgba(0, 0, 0, 0.5);
+
+}
+.expense-header{
+  height: 40px;
+  background-color:rgb(50, 191, 144);
+  display: flex;
+  align-items: center;
+}
+.expense-header h3{
+  color: white;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.with-whom{
+height: 40px;
+display: flex;
+align-items: center;
+border-bottom: 1px solid #eee;
+}
+.with-whom span{
+  margin-left: 10px;
+  font-family: sans-serif;
+
+}
+.expense-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.expense-desc{
+  height:30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed black;
+}
+.desc{
+  border:none;
+outline:none;
+font-size: larger;
+}
+.desc::placeholder{
+  font-size: larger;
+}
+.expense-cost{
+  display: flex;
+  margin-top: 10px;
+}
+.expense-cost span{
+  margin-top: 5px;
+  font-size: large;
+}
+
+.cost-values{
+  height:30px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed black;
+}
+.cost{
+  border:none;
+  outline:none;
+  font-size: larger;
+}
+.cost::placeholder{
+  font-size: larger;
+}
+.paid-by{
+  margin-top: 15px;
+  display: flex;
+}
+.paid-by span{
+  font-size: large;
+  font-family: sans-serif;
+}
+.paid-by-list{
+height:20px;
+min-width:50px;
+margin-left: 2px;
+margin-right: 2px;
+display: flex;
+justify-content: center;
+border:1px dashed black;
+
+
+}
+.select-list{
+  border:none;
+  color:rgb(50, 191, 144);
+  outline: none;
+}
+.select-list option{
+  color: black;
+}
+.cost-distributed{
+  height: 20px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.money-icon{
+
+font-size: medium;
+}
+.cost-distributed span{
+
+  font-family: sans-serif;
+}
+.expense-date{
+  margin-top:20px;
+  margin-right:150px;
+  height:25px;
+  width:130px;
+  border :1px solid grey;
+  border-radius: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+
+}
+.expense-date span{
+  color:#666;
+  font-family: sans-serif;
+}
+.save{
+  margin-top: 40px;
+  height:30px;
+  width: 60px;
+  border :1px solid rgb(10, 119, 83);;
+  border-radius: 10px;
+  background-color:rgb(50, 191, 144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:300px;
+  cursor: pointer;
+}
+.save button{
+  
+  border-radius: 5px;
+  background-color:rgb(50, 191, 144);
+  color: white;
+  font-size: medium;
+  border:none;
+  cursor: pointer;
+}
+.save:hover{
+  background-color: rgb(13, 168, 117);
+}
+.save:hover button{
+  background-color: rgb(13, 168, 117);
+
+}

@@ -1,0 +1,103 @@
+.dash-header{
+  height:70px;
+  width:100%;
+  border-bottom: 1px solid #c1bebe;
+  background-color: #EEE;
+  display: flex;
+
+}
+.dash-heading{
+margin:20px 0 0 50px;
+font-family:sans-serif;
+font-weight: 500;
+}
+.dashboard-btns-div{
+  display: flex;
+  flex-direction: column;
+}
+.dash-buttons{
+  margin-left:300px;
+}
+.dash-btn-1{
+  margin-left:30px;
+  margin-top:15px;
+  height:40px;
+  width:150px;
+  border-radius: 5px;
+  border: 1px;
+  border:none;
+  background-color: rgb(247, 113, 36);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.dash-btn-1:hover{
+  background-color: rgb(251, 97, 8);
+}
+.dash-btn-2{
+  margin-left:30px;
+  margin-top:15px;
+  height:40px;
+  width:150px;
+  border-radius: 5px;
+  border: 1px;
+  border:none;
+  background-color:rgb(50, 191, 144);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dash-btn-2:hover{
+  background-color:rgb(57, 174, 135);
+}
+.payment-details{
+  margin-left:510px;
+  width: 165px; 
+  position: relative;
+background-color: white;
+border-radius: 3px;
+box-shadow:0 0 10px  rgba(0, 0, 0, 0.5);
+z-index: 20;
+}
+.hide-list{
+  position:absolute;
+  left:145px;
+  top:0px;
+  
+}
+.hide-list button{
+  border: none;
+  height:10px;
+  width:20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.payment-list{
+
+  padding:0%;
+  padding-left:10px;
+  list-style: none;
+}
+.list-items{
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(194, 192, 192);
+ 
+}
+.list-items a{
+  text-decoration: none;
+  color:black
+}
+.list-items button{
+  text-decoration: none;
+  color:black;
+  border: none;
+  background-color: transparent;
+}
+.list-items:hover{
+  background-color: #f5eeee;
+}
+.hidden{
+  visibility: hidden;
+}

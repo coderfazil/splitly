@@ -1,0 +1,53 @@
+.lists-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between each list item */
+}
+
+.link-tag {
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+}
+
+.group-div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.group-div:hover {
+  background-color: #e9ecef; /* Slightly darker on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.group-img img {
+  width: 50px; /* Fixed size for uniformity */
+  height: 50px; /* Fixed size for uniformity */
+  border-radius: 50%; /* Circular image */
+  margin-right: 15px; /* Space between image and name */
+}
+
+.group-name {
+  flex-grow: 1; /* Take up remaining space */
+  font-weight: bold; /* Emphasize the name */
+}
+
+.edit-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit {
+  font-size: 18px; /* Icon size */
+  color: #007bff; /* Bootstrap primary color for edit icon */
+  transition: color 0.3s; /* Smooth color change */
+}
+
+.edit:hover {
+  color: #0056b3; /* Darker shade on hover */
+}

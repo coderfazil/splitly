@@ -1,0 +1,130 @@
+
+.expense-list{
+  
+  width:700px;
+ 
+}
+.time-divider{
+  height:25px;
+  background-color: #EEE;
+ border-bottom: 1px solid #c1bebe;
+ display: flex;
+ 
+
+}
+.time-divider span{
+margin-top: 5px;
+margin-left:10px;
+color:#666;
+font-family: sans-serif;
+
+}
+.expense{
+  height:50px;
+  width:100%;
+  border-bottom: 1px solid #c1bebe;
+  display: flex;
+
+  align-items: center;
+}
+.expense-date{
+  display: flex;
+  flex-direction: column;
+  margin-left:15px;
+}
+.expense-month{
+  color:#999;
+  font-size: large;
+  font-family: sans-serif;
+}
+.expense-day{
+  color:#999;
+  font-size: large;
+  font-family: sans-serif;
+  margin-left:5px;
+}
+.expense-desc{
+  margin-left:50px;
+}
+.expense-desc span{
+  font-size: larger;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.paid-by{
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+.you-paid{
+  color:#999;
+  font-size: small;
+  margin-left:10px;
+  
+}
+.cost{
+  font-weight: 700;
+  font-size: large;
+}
+.lent{
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.lent-friend{
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.you-lent{
+  color:#999;
+  font-size: small;
+  margin-left:15px;
+}
+.lent-cost{
+  font-weight: 700;
+  font-size: large;
+  color:rgb(50, 191, 144);
+}
+/* settle up */
+.settle-up{
+  height:35px;
+  width:100%;
+  border-bottom: 1px solid #c1bebe;
+  display: flex;
+  align-items: center;
+}
+.money-icon{
+  height:30px;
+  width:30px;
+  margin-left: 15px;
+  background-color:rgb(50, 191, 144);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  
+}
+.money-icon span{
+  margin-top: 5px;
+}
+.settle-up-details{
+  margin-left: 20px;
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: 50;
+}
+.money-received{
+  margin-left: 140px;
+  color: #999;
+  font-size: small;
+  font-family: sans-serif;
+}
+.received-cost{
+  margin-left: 66px;
+  font-size: large;
+  font-weight: 700;
+  color: #ff652f;
+}
