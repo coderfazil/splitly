@@ -4,14 +4,7 @@
   width:700px;
  
 }
-.time-divider{
-  height:25px;
-  background-color: #EEE;
- border-bottom: 1px solid #c1bebe;
- display: flex;
- 
 
-}
 .time-divider span{
 margin-top: 5px;
 margin-left:10px;
