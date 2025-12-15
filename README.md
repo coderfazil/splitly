@@ -40,6 +40,7 @@ This project focuses on solving real-world expense sharing problems using secure
 ## Project Structure
 splitly/
 ├── # React frontend
+│ ├── store/ # Redux store, reducers, actions
 ├── backend/ # Node & Express backend
 │ ├── models/
 │ ├── routes/
